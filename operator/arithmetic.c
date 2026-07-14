@@ -2,13 +2,13 @@
 
 int main()
 {
-/*     int a = 67;
-    int b = 12; */
-/*     printf("addition:%d\n", a + b);
+    int a = 67;
+    int b = 12;
+    printf("addition:%d\n", a + b);
     printf("subtraction:%d\n", a - b);
     printf("multiplication:%d\n", a * b);
     printf("division:%d\n", a / b);
-    printf("modulus:%d\n", a % b); */
+    printf("modulus:%d\n", a % b);
 
     //Relational operators
 /*     printf("Harshad\n");
@@ -71,8 +71,8 @@ int main()
     printf("a = %.1f\n", a); */
 
     //swapping with using third variable
-    int a = 10;
-    int b = 90;
+    //int a = 10;
+    //int b = 90;
     
 /*     printf("before swapping:\n a = %d, b = %d\n", a, b);
 
@@ -93,11 +93,11 @@ int main()
     printf("after swapping:\n a = %d, b = %d\n", a, b); */
 
     //using multiplication and division
-    printf("before swapping:\n a = %d, b = %d\n", a, b);
+/*     printf("before swapping:\n a = %d, b = %d\n", a, b);
     a = a * b; // a = 90 * 10 = 900
     b = a / b; // b = 900 / 10 = 90
     a = a / b; // a = 900 / 90 = 10 
-    printf("after swapping:\n a = %d, b = %d\n", a, b);
+    printf("after swapping:\n a = %d, b = %d\n", a, b); */
     
 
 }
