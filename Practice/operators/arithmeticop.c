@@ -34,5 +34,6 @@ int main ()
     int rect = len * width;
     printf("Area of rectangle:%d",rect);
 
+    
 
 }
