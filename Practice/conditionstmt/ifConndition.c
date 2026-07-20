@@ -62,14 +62,17 @@ int main()
     int a, b;
     char op;
 
-    printf("Enter first number: ");
-    scanf("%d", &a);
+    // printf("Enter first number: ");
+    // scanf("%d", &a);
 
-    printf("Enter operator (+, -, *, /, %%): ");
-    scanf(" %c", &op);
+    // printf("Enter operator (+, -, *, /, %%): ");
+    // scanf(" %c", &op);
 
-    printf("Enter second number: ");
-    scanf("%d", &b);
+    // printf("Enter second number: ");
+    // scanf("%d", &b);
+
+    printf("Welcome to calculator !! \n which operation you want to do :");
+    scanf("%d%c%d",&a,&op,&b);
 
     if (op == '+')
     {
@@ -110,7 +113,6 @@ int main()
         printf("Invalid operator\n");
     }
 
-    return 0;
 
 
 
